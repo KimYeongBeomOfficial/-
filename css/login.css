@@ -1,0 +1,53 @@
+table#loginTool
+   {width: 1024px; 
+    height: 540px; 
+    margin: auto; 
+    margin-top: 40px; 
+    margin-bottom: 80px;
+    padding: 80px;}
+
+#loginTitle
+   {text-align: center;
+    font-size: 34px;
+    padding-bottom: 24px;
+    ;
+    }
+
+.loginTitleColor
+   {font-weight: 600;
+    font-size: 40px;
+    color: #ffc000ff;}
+
+#loginTool th#loginList
+   {font-size: 28px;
+    text-align: right;
+    padding-right: 20px;
+    color: rgb(70, 70, 70);
+    }
+
+#loginTool input
+   {font-size: 20px;
+    width: 340px;
+    height: 36px;
+    padding-left: 8px;
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: #a1a1a1;}
+
+#loginTool td
+   {font-size: 16px;}
+
+
+.mText
+   {font-weight: 600;
+    font-size: 22px;
+    color: #ffc000ff;
+    }
+
+
+
+#loginTool a
+{text-decoration: none;
+color: #2399fa;
+font-size: 14px;}
+
