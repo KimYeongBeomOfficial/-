@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* 구글 폰트 Poppins를 가져옴 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
 body {
-    font-family: Poppins !important;
+    font-family: Poppins, Noto Sansf KR !important;
     overflow-x: hidden;
     margin: 0;
     width: 100%;
