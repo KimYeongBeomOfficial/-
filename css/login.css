@@ -1,17 +1,22 @@
+.login {
+   display: flex;
+   justify-content: center;
+}
 table#loginTool
    {width: 1024px; 
     height: 540px; 
     margin: auto; 
     margin-top: 40px; 
     margin-bottom: 80px;
-    padding: 80px;}
+    padding: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+   }
 
 #loginTitle
    {text-align: center;
     font-size: 34px;
     padding-bottom: 24px;
-    ;
-    }
+   }
 
 .loginTitleColor
    {font-weight: 600;
@@ -44,10 +49,29 @@ table#loginTool
     color: #ffc000ff;
     }
 
-
-
 #loginTool a
 {text-decoration: none;
-color: #2399fa;
+color: #22b14c;
 font-size: 14px;}
+
+@media screen and (max-width:768px) {
+   #loginTool input
+   {font-size: 16px;
+    width: 300px;
+    height: 28px;}
+
+    #loginTool th#loginList
+   {font-size: 18px;
+    white-space: nowrap;
+    }
+
+   td {
+      white-space: nowrap;
+   }
+
+   td img {
+      width: 280px;
+      height: 32px;
+   }
+}
 
