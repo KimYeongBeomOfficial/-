@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   width="48px"
+   height="48px"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="icon_menu_white_48px.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="8.6666667"
+     inkscape:cx="6.6346154"
+     inkscape:cy="42"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <g
+     id="surface98742966"
+     transform="matrix(0.89868356,0,0,0.99998113,2.4315945,4.5286733e-4)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 6,10 c -0.722656,-0.011719 -1.390625,0.367188 -1.753906,0.992188 -0.367188,0.621093 -0.367188,1.394531 0,2.015624 C 4.609375,13.632812 5.277344,14.011719 6,14 h 36 c 0.722656,0.01172 1.390625,-0.367188 1.753906,-0.992188 0.367188,-0.621093 0.367188,-1.394531 0,-2.015624 C 43.390625,10.367188 42.722656,9.988281 42,10 Z m 0,12 c -0.722656,-0.01172 -1.390625,0.367188 -1.753906,0.992188 -0.367188,0.621093 -0.367188,1.394531 0,2.015624 C 4.609375,25.632812 5.277344,26.011719 6,26 h 36 c 0.722656,0.01172 1.390625,-0.367188 1.753906,-0.992188 0.367188,-0.621093 0.367188,-1.394531 0,-2.015624 C 43.390625,22.367188 42.722656,21.988281 42,22 Z m 0,12 c -0.722656,-0.01172 -1.390625,0.367188 -1.753906,0.992188 -0.367188,0.621093 -0.367188,1.394531 0,2.015624 C 4.609375,37.632812 5.277344,38.011719 6,38 h 36 c 0.722656,0.01172 1.390625,-0.367188 1.753906,-0.992188 0.367188,-0.621093 0.367188,-1.394531 0,-2.015624 C 43.390625,34.367188 42.722656,33.988281 42,34 Z m 0,0"
+       id="path2" />
+  </g>
+</svg>
