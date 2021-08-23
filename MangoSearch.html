@@ -1,93 +1,132 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/topbox.css">
-        <link rel="stylesheet" type="text/css" href="css/login.css">
-        <link rel="stylesheet" type="text/css" href="css/bottombox.css">
-        <link rel="stylesheet" type="text/css" href="css/MangoSearch.css">
-        <link href="icon/MangoGrd_icon_16_16px.svg" rel="shortcut icon" type="image/x-icon">
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/MangoSearch.css">
+    <link href="icon/MangoGrd_icon_16_16px.svg" rel="shortcut icon" type="image/x-icon">
+    <script src="js/header.js" defer></script>
+    <!-- 아이콘 주소 -->
+    <script src="https://kit.fontawesome.com/d084f605a3.js" crossorigin="anonymous"></script>
+    <title>Mango</title>
 
-        <title>Mango 검색창</title>
-    </head>
-    <body>
-        <header>
-            <div id="login_box">
-                <ul id="login_menu">
-                    <li id="login_menu_list"><a id="home" href="MangoLogin.html">로그인 &nbsp;</a></li>
-                <li     id="login_menu_list"><a id="home" href="#">My Page &nbsp;</a></li>
-                </ul>
-            </div>
+  </head>
 
-            <h1><a href="MangoHome.html">Mango</a></h1>
+  <body>
 
-            <div id="top_box" class="lnb">    
-                <ul id="top_menu">
-                    <li id="top_menu_list">
-                        <a id="home" href="MangoHome.html"><img src="icon/icon_logo_white085_40_22px.svg" 
-                            onmouseover="this.src='icon/MangoGrd_icon_40_22px.svg'"
-                            onmouseout="this.src='icon/icon_logo_white085_40_22px.svg'"></a></li>
-                    <li id="top_menu_list"><a href="#">스토어</a></li>
-                    <li id="top_menu_list"><a href="#">소프트웨어</a></li>
-                    <li id="top_menu_list"><a href="MangoLogin.html">계정</a></li>
-                    <li id="top_menu_list"><a href="#">고객센터</a></li>
-                    <li id="top_menu_list"><a href="#">
-                        <img src="icon/icon_search_white085_40_22px.svg"
-                            onmouseover="this.src='icon/icon_search_white100_40_22px.svg'"
-                            onmouseout="this.src='icon/icon_search_white085_40_22px.svg'"></a></li>
-                    <li id="top_menu_list"><a href="#">
-                        <img src="icon/icon_cart_white085_40_22px.svg"
-                            onmouseover="this.src='icon/icon_cart_white100_40_22px.svg'"
-                            onmouseout="this.src='icon/icon_cart_white085_40_22px.svg'"></a></li>
-                </ul>
-            </div>
-        </header>
+    <!-- 헤더 부분 -->
+
+    <!-- 오른쪽 상단 메뉴 -->
+    <div class="top">
+      <ul class="top_menu">
+        <li class=""><a href="MangoLogin.html">Login</a></li>
+        <li class=""><a href="#">My Page</a></li>
+      </ul>
+    </div> <!-- 오른쪽 상단 메뉴 끝 -->
+
+    <!-- 망고 타이틀 -->
+    <div class="title">
+        <a class="title_link" href="index.html">
+          <strong>Mango</strong></a>
+    </div> <!-- 망고 타이틀 끝 -->
+
+    <!-- 좌우 여백을 위한 컨테이너 -->
+    <div class="navbar_container">
+
+      <!-- 네비게이션바 -->
+      <nav>
+        <!-- 네비게이션바 리스트 -->
+        <ul class="navbar">
+          <!-- 좌측 망고 아이콘 -->
+          <li><a class="navbar_logo" href="index.html">
+            <img src="icon/icon_logo_white085_40_22px.svg"
+              onmouseover="this.src='icon/MangoGrd_icon_40_22px.svg'"
+              onmouseout="this.src='icon/icon_logo_white085_40_22px.svg'"></a></li>
+            <!-- 망고 아이콘 끝 -->
+    
+          <!-- 중앙 텍스트 메뉴 -->
+          <li class="navbar_menu"><a class="navbar_menu_link" href="#">Store</a></li>
+          <li class="navbar_menu"><a class="navbar_menu_link" href="#">Software</a></li>
+          <li class="navbar_menu"><a class="navbar_menu_link" href="MangoInfo.html">Support</a></li>
+          <li class="navbar_menu"><a class="navbar_menu_link" href="#">Introduction</a></li>
+          <!-- 텍스트 메뉴 끝 -->
+
+          <!-- 우측 아이콘 메뉴 -->
+          <li class="navbar_icons search_icon"><a href="MangoSearch.html">
+            <img src="icon/icon_search_white085_40_22px.svg"
+              onmouseover="this.src='icon/icon_search_white100_40_22px.svg'"
+              onmouseout="this.src='icon/icon_search_white085_40_22px.svg'"></a></li>
+          <li class="navbar_icons cart_icon"><a href="#">
+            <img src="icon/icon_cart_white085_40_22px.svg"
+              onmouseover="this.src='icon/icon_cart_white100_40_22px.svg'"
+              onmouseout="this.src='icon/icon_cart_white085_40_22px.svg'"></a></li>
+
+        </ul> <!-- 네비게이션바 리스트 끝-->
+
+        <a href="#" class="navbar_toggleBtn">
+          <i class="fas fa-bars"></i>
+        </a>
+
+      </nav> <!-- 네비게이션바 끝 -->    
+    </div> <!-- 컨테이너 끝 -->
+
+    <!-- 헤더 부분 끝 -->
+    <!-- 메인 컨테이너 부분 -->
         <form class="search-form">
-            <input type="text" class="search" placeholder="Mango에게 물어보세요.">
+            <input type="text" class="search" placeholder="Ask To Mango.">
             <ul class = "suggestions">
-                <li><a href="#">스토어</a></li>
-                <li><a href="#">소프트웨어</a></li>
-                <li><a href="Mango/MangoLogin.html">계정</a></li>
-                <li><a href="#">고객지원</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Software</a></li>
+                <li><a href="MangoSupport.html">Support</a></li>
+                <li><a href="#">Introduction</a></li>
             </ul>
         </form>
-        <footer>
-            <table id="bot_box">
-                <tr>
-                    <td id="bot_info">
-                        <b>Mango</b><br>
-                        (주)망고 소프트웨어 서울시 서대문구 연희동 413-106 CocoaHall 3F<br>
-                        사업자 등록 번호 106-87-83592<br>
-                        전화 070-2454-7856 &nbsp;&nbsp;
-                        팩스 02-323-0106<br>
-                        <br>
-                        ⓒCopyright 2021. Mango<br>
-                        All right reserved
-                        <br>
-                        <br>
-                        <br>
-                    </td>
-    
-                    <td id="bot_surport">
-                        <b>고객센터</b><br>
-                        <a href="#">FAQ</a><br>
-                        <a href="#">1:1 문의</a><br>
-                        <a href="#">서비스 및 수리</a><br>
-                        <a href="#">하드웨어 보증</a><br>
-                        <a href="#">소프트웨어 사용권 계약</a><br>
-                    </td>
-    
-                    <td id="bot_company">
-                        <b>Mango 정보</b><br>
-                        <a href="#">Mango 안내</a><br>
-                        <a href="#">Mango 가치관</a><br>
-                        <a href="#">윤리 및 규정 준수</a><br>
-                        <a href="#">채용 정보</a><br>
-                        <br>
-                    </td>
-                </tr>
-            </table>
-        </footer>
-    </body>
-</html>
+    <!-- 메인 컨테이너 부분 끝-->
+    <!-- 푸터 부분 -->
+    <footer class="footer">
+        <div class="footer_container">
+  
+          <ul class="footer_company">
+            <li><b>Mango</b></li>
+            <li>&nbsp;</li>
+            <li>(주)망고 소프트웨어 서울시 서대문구 연희동 413-106 CocoaHall 3F</li>
+            <li>사업자 등록 번호 106-87-83592</li>
+            <li>Tel. 070-2454-7856</li>
+            <li>Fax. 02-323-0106</li>
+          </ul>
+  
+          <ul class="footer_support">
+            <li><b>고객센터</b></li>
+            <li>&nbsp;</li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">1:1 문의</li>
+            <li><a href="#">서비스 및 수리</li>
+            <li><a href="#">하드웨어 보증</li>
+            <li><a href="#">소프트웨어 사용권 계약</a></li>
+          </ul>
+  
+          <ul class="footer_info">
+            <li><b>Mango 정보</b></li>
+            <li>&nbsp;</li>
+             <li><a href="#">Mango 안내</a></li>
+             <li><a href="#">Mango 가치관</a></li>
+             <li><a href="#">윤리 및 규정 준수</a></li>
+             <li><a href="#">채용 정보</a></li>
+           </ul>
+  
+      </div>
+  
+      <div class="copyright">
+        © 2021 Copyright <b>Mango</b> All right reserved
+      </div>
+         
+       </footer>
+      <!-- 푸터 부분 끝 -->
+  
+    </body> 
+  </html>
