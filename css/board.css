@@ -1,5 +1,5 @@
 .community_container {
-    padding: 40px 240px;
+    padding: 40px 200px;
 }
 .community_top, .community_middle {
     display: flex;
@@ -9,6 +9,7 @@
 .community_title {
     font-size: 42px;
     font-weight: bold;
+    white-space: nowrap;
 }
 .community_search input {
     margin-top: 30px;
@@ -62,6 +63,10 @@ select:focus, input:focus {
     display: flex;
     margin-bottom: 48px;
 }
+.dumb:last-child {
+    margin-bottom: 0;
+}
+
 .user_pic {
     margin-top: 6px;
     opacity: 0.3;
@@ -79,24 +84,29 @@ select:focus, input:focus {
     margin-bottom: 8px;
 }
 span.big {
-    font-size: 20px;
+    font-size: 16px;
+    margin-right: 8px;
 }
 span.small {
     font-size: 12px;
-    margin-top: 8px;
+    white-space: nowrap;
 }
 
 .page_write {
-    margin-top: -30px;
     margin-bottom: 30px;
     display: flex;
-    justify-content: space-between;
     padding: 0 48px;
+}
+.page {
+    display:flex;
+    justify-content: right;
+    width: 100%;
 }
 .page_num {
     list-style: none;
     display: flex;
-    margin: 0 0 0 90px;
+    margin: 0;
+    padding: 0;
 }
 .page_num li {
     padding: 0 8px;
@@ -104,12 +114,20 @@ span.small {
 .page_num a {
     text-decoration: none;
     color: black;
+    vertical-align: middle;
+}
+
+.write {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 .write_btn {
     background-color: rgba(0,0,0,.1);
     border: none;
     cursor: pointer;
-    padding: 8px 24px;
+    padding: 6px 24px;
+    white-space: nowrap;
 }
 
 .board_bottom {
@@ -127,4 +145,27 @@ span.small {
     width: 320px;
     border-radius: 0;
     border: 1px solid rgba(0,0,0,.3);
+}
+
+@media screen and (max-width: 1080px) {
+    .community_container {
+        padding: 40px 150px;
+    }
+    .community_top, .community_middle {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 768px) {
+    .community_container {
+        padding: 40px 40px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .page_num {
+        font-size: 14px;
+    }
+    .write_btn {
+        padding: 4px 18px;
+        font-size: 12px;
+    }
 }
