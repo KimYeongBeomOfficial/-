@@ -11,8 +11,11 @@
     font-weight: bold;
     white-space: nowrap;
 }
+.community_search {
+    display: flex;
+    align-items: center;
+}
 .community_search input {
-    margin-top: 30px;
     width: 340px;
     height: 30px;
 }
@@ -67,6 +70,11 @@ select:focus, input:focus {
     margin-bottom: 0;
 }
 
+.dumb a {
+    color: black;
+    text-decoration: none;
+}
+
 .user_pic {
     margin-top: 6px;
     opacity: 0.3;
@@ -93,14 +101,14 @@ span.small {
 }
 
 .page_write {
-    margin-bottom: 30px;
     display: flex;
-    padding: 0 48px;
+    padding: 24px 48px;
+    justify-content: center;
 }
-.page {
-    display:flex;
-    justify-content: right;
+.page_write .page {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .page_num {
     list-style: none;
@@ -117,14 +125,13 @@ span.small {
     vertical-align: middle;
 }
 
-.write {
+.page_write .write {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
 }
 .write_btn {
     background-color: rgba(0,0,0,.1);
     border: none;
+    border-radius: 4px;
     cursor: pointer;
     padding: 6px 24px;
     white-space: nowrap;
@@ -134,7 +141,8 @@ span.small {
     display: flex;
     justify-content: center;
     height: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
+    padding: 12px 40px;
 }
 .board_bottom select {
     width: 140px;
@@ -153,6 +161,11 @@ span.small {
     }
     .community_top, .community_middle {
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 990px) {
+    .community_search input {
+        margin-top: 24px;
     }
 }
 @media screen and (max-width: 768px) {

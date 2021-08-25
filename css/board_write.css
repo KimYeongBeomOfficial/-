@@ -1,0 +1,44 @@
+.board_top {
+    display: flex;
+    justify-content: space-between;
+}
+.community_write {
+    display: flex;
+    align-items: center;
+    font-size: 42px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: rgba(0,0,0,.5);
+}
+.write_title span {
+    margin-right: 24px;
+}
+.write_title input {
+    width: 320px;
+    border-radius: 0;
+    border: none;
+    height: 30px;
+}
+.write_category select{
+    width: 140px;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,.3);
+    height: 30px;
+}
+.board_write textarea {
+    border: none;
+    margin: 48px;
+    width: 88%;
+    height: 500px;
+    font-size: 14px;
+}
+textarea:focus {
+    outline: none;
+}
+
+.page_write {
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+.write_btn {
+    padding: 6px 48px;
+}

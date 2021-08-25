@@ -55,21 +55,38 @@
     padding: 0;
 }
 
+.navbar ul {
+    display: none;
+    position: absolute;
+    background-color: #ff990f;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    padding-top: 14px;
+}
+.sub_menu.active {
+    display: block;
+}
+.sub_menu li {
+    padding: 8px 12px;
+}
+.sub_menu li:hover {
+    background-color: #22b14c;
+}
+.sub_menu li a {
+    padding: 8px 12px;
+}
+
 .navbar_logo img, .navbar_icons img {
     margin-top: 5px;
     /* 이미지 아이콘들을 중앙에 맞추기 위한 마진 */
 }
 
 .navbar_menu { /* li */
-    padding: 4px 12px;
+    padding: 14px 12px;
 }
 .navbar_menu_link {
-    padding: 4px 12px;
-}
-.navbar_menu:hover {
-    background-color: #22b14c;
-    border-radius: 4px;
-    /* 네비게이션 바 텍스트 메뉴 배경 효과 (빼도 됨) */
+    padding: 14px 12px;
 }
 
 .navbar_toggleBtn {
@@ -106,9 +123,12 @@
     .navbar_toggleBtn {
         display: block;
     }
-    .navbar_menu.hidden,
-    .search_icon.hidden {
+    .navbar_menu.active,
+    .search_icon.active {
         display: flex;
         justify-content: center;
+    }
+    .sub_menu.active {
+        display: none;
     }
 }
