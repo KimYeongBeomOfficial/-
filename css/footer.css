@@ -36,4 +36,12 @@ footer a:hover {
         font-size: 14px;
     }
 }
+@media screen and (max-width:600px) {
+    .footer_container {
+        flex-direction: column;
+    }
+    .footer_container li {
+        white-space: normal;
+    }
+}
 

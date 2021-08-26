@@ -1,6 +1,10 @@
 #store_top{
     text-decoration: none;
-    color:#0051ff;
+    color:#2399fa;
+}
+.store_banner {
+    background-color: whitesmoke;
+    padding: 4px 0;
 }
 .store_main{
     text-align:center;
@@ -44,7 +48,7 @@
 }.araboza{
     font-size: 20px;
     text-decoration: none;
-    color:#0051ff;
+    color:#2399fa;
 }
 .store_third_wrapper{
     display: flex;

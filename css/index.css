@@ -1,5 +1,17 @@
+.main_banner {
+    background-color: whitesmoke;
+    padding: 4px 0;
+}
 .main_container {
     padding: 60px 60px;
+    padding-top: 0;
+}
+#main_top {
+    text-decoration: none;
+    color: #0051ff;
+}
+#main_top:visited {
+    color: #0051ff;
 }
 
 .console1, .console2 {
@@ -86,5 +98,18 @@
 @media screen and (max-width:1024px) {
     .console1, .console2, .software {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main_container img {
+        width: 300px;
+        height: auto;
+    }
+    .big {
+        font-size: 30px;
+    }
+    .small {
+        font-size: 16px;
     }
 }
