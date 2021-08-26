@@ -1,6 +1,7 @@
 footer {
     background-color: whitesmoke;
-    color:rgba(0, 0, 0, 0.7)
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 16px;
 }
 footer a {
     color: inherit;
