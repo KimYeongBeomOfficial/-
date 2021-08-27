@@ -55,12 +55,14 @@
     padding:10px;
     justify-content: center;
 }
+.arrow {
+    margin-top: 220px;
+}
 .arrow_button{
     text-decoration: none;
     color:white;
     font-size: 50px;
     float:right;
-    text-align: center;
 }
 .store_third_one{
     margin-right: 15px;
@@ -79,14 +81,19 @@
     color:white;
     float:left;
     width:500px;
-    height:200px;
+    height: auto;
     text-align: left;
 }
-.accessory_img, .recent_product_img{
+.black_box_bottom {
+    display: flex;
+    padding:0;
+}
+.accessory_img img, .recent_product_img img {
     width:300px;
     height:300px;
-    float:left;
-    justify-content: center;
+    margin-top: 60px;
+    margin-left: 100px;
+    float: left;
 }
 .store_forth_wrapper{
     display: flex;
@@ -120,11 +127,7 @@
 .yellow_box_ment{
     height:114px;
 }
-.yellow_box_img{
+.yellow_box_img img, .green_box_img img{
     height:300px;
-    width:400px;
-}
-.green_box_img{
-    height:300px;
-    width:400px;
+    width: 300px;
 }
