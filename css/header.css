@@ -66,6 +66,7 @@
 }
 .sub_menu.active {
     display: block;
+    z-index: 999;
 }
 .sub_menu li {
     padding: 8px 12px;
