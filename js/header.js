@@ -17,3 +17,23 @@ for (let i = 0; i < menu.length; i++) {
         subMenu[i].classList.remove('active');
     });
 }
+
+const logInOut = document.querySelector(".top_login a");
+const topId = document.querySelector(".top_id");
+
+const ID_KEY = "MANGO_ID"
+const savedId = localStorage.getItem(ID_KEY);
+
+if (savedId !== null) {
+    topId.innerText = `${savedId}님`;
+    logInOut.innerText = "로그아웃";
+    logInOut.href = "index.html";
+} else {
+    topId.innerText = "";
+    logInOut.innerText = "로그인";
+    logInOut.href = "MangoLogin.html";
+}
+
+logInOut.addEventListener("click", function() {
+    localStorage.removeItem(ID_KEY);
+});

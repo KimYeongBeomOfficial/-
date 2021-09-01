@@ -9,7 +9,6 @@
         <link rel="stylesheet" type="text/css" href="css/login.css">
         <link href="icon/MangoGrd_icon_16_16px.svg" rel="shortcut icon" type="image/x-icon">
 
-        <script src="js/header.js" defer></script>
         <script src="https://kit.fontawesome.com/d084f605a3.js" crossorigin="anonymous"></script>
         
         <title>Mango 로그인</title>
@@ -21,8 +20,9 @@
     <!-- 오른쪽 상단 메뉴 -->
     <div class="top">
       <ul class="top_menu">
-        <li class=""><a href="MangoLogin.html">로그인</a></li>
-        <li class=""><a href="#">마이페이지</a></li>
+        <li class="top_id"></li>
+        <li class="top_login"><a href="MangoLogin.html">로그인</a></li>
+        <li><a href="#">마이페이지</a></li>
       </ul>
     </div> <!-- 오른쪽 상단 메뉴 끝 -->
 
@@ -101,6 +101,7 @@
 
     <!-- 헤더 부분 끝 -->
     
+    <form id="loginForm">
       <div class="login">
         <table id="loginTool">
             <tr>
@@ -108,15 +109,17 @@
             </tr>
             <tr>
                 <th id="loginList">Mango ID</th>
-                <td><input type="text"></td>
+                <td><input id="login_id" required type="text"></td>
             </tr>
             <tr>
                 <th id="loginList">비밀번호</th>
-                <td><input type="text"></td>
+                <td><input required type="text"></td>
             </tr>
             <tr class="loginButton">
                 <th></th>
-                <td style="padding-left: 20px;"><a href="#"><img src="img/loginButton.svg"></a></td>
+                <td style="padding-left: 20px;">
+                  <a href="index.html" onclick="loginSubmit()"><img src="img/loginButton.svg"></a>
+                </td>
             </tr>
             <tr>
                 <th></th>
@@ -131,6 +134,7 @@
             </tr>
         </table>
     </div>
+  </form>
 
     <!-- 푸터 부분 -->
     <footer class="footer">
@@ -176,6 +180,8 @@
          
        </footer>
       <!-- 푸터 부분 끝 -->
-
+      
+  <script src="js/header.js" defer></script>
+  <script src="js/login.js"></script>
 </body>
 </html>
