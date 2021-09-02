@@ -37,3 +37,17 @@ if (savedId !== null) {
 logInOut.addEventListener("click", function() {
     localStorage.removeItem(ID_KEY);
 });
+
+const cartIcon = document.querySelector(".cart_icon a");
+
+function handleCart() {
+    if (savedId !== null) {
+        cartIcon.href = "MangoCart.html";
+    } else {
+        cartIcon.href = "MangoLogin.html";
+        alert("로그인이 필요합니다.")
+    }
+}
+
+cartIcon.addEventListener("click", handleCart);
+
